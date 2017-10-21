@@ -1,0 +1,23 @@
+{
+  "name": "es6-react-redux-snippets",
+  "main": "./lib/es6-react-redux-snippets",
+  "version": "0.0.0",
+  "description": "This is one of the best packages for ES6+, React and Redux packages out there",
+  "keywords": [
+    "ES6",
+    "JavaScript",
+    "React",
+    "Redux",
+    "snippets"
+  ],
+  "activationCommands": {
+    "atom-workspace": "es6-react-redux-snippets:toggle"
+  },
+  "repository": "https://github.com/atom/es6-react-redux-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

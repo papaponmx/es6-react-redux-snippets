@@ -1,0 +1,17 @@
+# This project was developed by Jaime Rios
+# You can contact me at https://github.com/papaponmx
+# https://riosjaime.com or hola@riosjaime.com
+
+'.source.js':
+  'Annonymous function':
+    'prefix': 'anfn'
+    'body': '(${1:params}) => {
+      $2
+       }'
+
+'.source.js':
+  'function':
+    'prefix': 'fn'
+    'body': """function ${1:functionName} (${2:params}) {
+        $3
+       }"""
