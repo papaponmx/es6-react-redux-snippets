@@ -43,14 +43,33 @@
 '.source.js':
   'Import Everything':
     'prefix': 'ime'
-    'body': """'import * as ${1:alias} from '${2:module}'"""
+    'body': """import * as ${1:alias} from '${2:module}"""
+
+'.source.js':
+  'For of loop':
+    'prefix': 'fof'
+    'body': """ for(let ${1:itemName} of ${2:iterable} {
+      ${3}
+    }
+    """
+'.source.js':
+  'For in loop':
+    'prefix': 'fin'
+    'body': """for(let ${1:itemName} in ${2:iterable} {
+      $3
+   }"""
 
 
+'.source.js':
+  'Method':
+    'prefix': 'met'
+    'body': """ ${1:methodName} = (${2:params}) => { $3 }
+    """
 
 # React
 '.source.js':
   'React Component Snipet':
-    'prefix': 'rcc'ﬂ
+    'prefix': 'rcc'
     'body': """import React, { Component } from 'react';
 
 export default class ${1:componentName} extends Component {
@@ -62,7 +81,41 @@ export default class ${1:componentName} extends Component {
     )
   }
 }
-
-
     """
-
+
+# React Redux
+'.source.js':
+  'Component with redux':
+    'prefix': 'rcredux'
+    'body': """
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+export class ${1:componentName} extends Component {
+
+  render() {
+    return (
+      <div>
+
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = (state) => ({
+
+});
+
+const mapDispatchToProps = {
+
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
+    """
+
+
+# Redux
+'.source.js':
+  'Redux conts':
+    'prefix': 'rxconst'
+    'body': """export const ${1:constName} = '${1:constName}';"""
