@@ -13,7 +13,7 @@
   "activationCommands": {
     "atom-workspace": "es6-react-redux-snippets:toggle"
   },
-  "repository": "https://github.com/atom/es6-react-redux-snippets",
+  "repository": "https://github.com/papaponmx/es6-react-redux-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
