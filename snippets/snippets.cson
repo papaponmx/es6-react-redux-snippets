@@ -2,6 +2,14 @@
 # You can contact me at https://github.com/papaponmx
 # https://riosjaime.com or hola@riosjaime.com
 
+
+# JavaScript
+'.source.js':
+  'Console log':
+    'prefix': 'log'
+    'body': 'console.log(${1:msg})';
+
+
 '.source.js':
   'Annonymous function':
     'prefix': 'anfn'
