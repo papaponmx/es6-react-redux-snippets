@@ -118,7 +118,8 @@ export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
 '.source.js':
   'Redux conts':
     'prefix': 'rxconst'
-    'body': """export const ${1:constName} = '${1:constName}';"""
+    'body': """export const ${1:constName} = '${1:constName}';
+    """
 
 
 '.source.js':
