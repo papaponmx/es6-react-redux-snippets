@@ -43,3 +43,4 @@ Enjoy :D
 |Prefix|Method|
 |-------:|-------|
 |`rxconst→`|`export const ${1:constName} = '${1:constName}';`|
+|`rxaction→`|`export const ${1:actionName} = ({2:param}) => ({` <br> `type: ${3:type}` <br> `payload: ${4:payload}` <br> `})`|
