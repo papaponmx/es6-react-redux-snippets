@@ -126,7 +126,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
     'prefix': 'rxaction'
     'body': """export const ${1:actionName} = (action) => ({
     type: type,
-    payload: payload
+    payload: action.payload
   });
     """
 
