@@ -14,7 +14,7 @@ Enjoy :D
 |Prefix|Method|
 |-------:|-------|
 |`log→`|`console.log(${1:msg})`|
-|`anf→`|`(${1:params}) => {  $2 }`|
+|`anfn→`|`(${1:params}) => {  $2 }`|
 |`nfn→`|`const ${1:functionName} = (${2:params}) => { $3 }`|
 |`fn→`|`function ${1:functionName} (${2:params}) {  $3  }`|
 |`imp→`|`import ${1:ModuleName} from '${2:Module}';`|

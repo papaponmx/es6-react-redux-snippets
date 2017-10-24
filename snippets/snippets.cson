@@ -133,7 +133,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
 '.source.js':
   'redux-saga Generator Function':
     'prefix': 'rxgen'
-    'body': """ export default function* ${1:workerName}Saga() {
+    'body': """ export function* ${1:workerName}Saga() {
 
     }
     """
