@@ -9,66 +9,44 @@
   'Console log':
     'prefix': 'log'
     'body': 'console.log(${1:msg})';
-
-
-'.source.js':
   'Annonymous function':
     'prefix': 'anfn'
     'body': """(${1:params}) => {
       $2
        }"""
-
-'.source.js':
   'Named function':
     'prefix': 'nfn'
     'body': 'const ${1:functionName} = (${2:params}) => { $3 }'
-
-'.source.js':
   'function':
     'prefix': 'fn'
     'body': """function ${1:functionName} (${2:params}) {
         $3
        }"""
-
-'.source.js':
   'Import snippet':
     'prefix': 'imp'
     'body': """import ${1:ModuleName} from '${2:Module}';"""
-
-
-'.source.js':
   'Import destructured':
     'prefix': 'imd'
     'body': """import { ${1:destructuredModule} } from '${2:module}'"""
-
-'.source.js':
   'Import Everything':
     'prefix': 'ime'
     'body': """import * as ${1:alias} from '${2:module}"""
-
-'.source.js':
   'For of loop':
     'prefix': 'fof'
     'body': """ for(let ${1:itemName} of ${2:iterable} {
       ${3}
     }
     """
-'.source.js':
   'For in loop':
     'prefix': 'fin'
     'body': """for(let ${1:itemName} in ${2:iterable} {
       $3
    }"""
-
-
-'.source.js':
   'Method':
     'prefix': 'met'
     'body': """ ${1:methodName} = (${2:params}) => { $3 }
     """
-
 # React
-'.source.js':
   'React Component Snipet':
     'prefix': 'rcc'
     'body': """import React, { Component } from 'react';
@@ -83,9 +61,7 @@ export default class ${1:componentName} extends Component {
   }
 }
     """
-
 # React Redux
-'.source.js':
   'Component with redux':
     'prefix': 'rcredux'
     'body': """
@@ -113,16 +89,10 @@ const mapDispatchToProps = {
 
 export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
     """
-
-
 # Redux
-'.source.js':
   'Redux conts':
     'prefix': 'rxconst'
     'body': """export const ${1:constName} = '${1:constName}';"""
-
-
-'.source.js':
   'Snippet Name':
     'prefix': 'rxaction'
     'body': """export const ${1:actionName} = (action) => ({
@@ -130,16 +100,12 @@ export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
     payload: action.payload
   });
     """
-
-'.source.js':
   'redux-saga Generator Function':
     'prefix': 'rxgen'
     'body': """ export function* ${1:workerName}Saga() {
 
     }
     """
-
-'.source.js':
   'Redux reducer':
     'prefix': 'rxreducer'
     'body': """export default (state = { }, action) => {
