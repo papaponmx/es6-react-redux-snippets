@@ -29,6 +29,10 @@ Enjoy :D
 |Prefix|Method|
 |-------:|-------|
 |`rcc→`|`import React, { Component } from 'react';` <br> `export default class ${1:componentName}` <br> `extends Component {` <br> `render () {` <br> `return (` <br> `<div>` <br> `    $2` <br> `</div>` <br> `)` <br> `}` <br> `}`|
+|`cpwm→`| `componentWillMount($1) { $2 }`|
+|`rcredux→`| `Renders a React connected component`|
+
+
 
 
 ## React Redux

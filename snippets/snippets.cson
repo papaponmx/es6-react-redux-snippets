@@ -61,6 +61,13 @@ export default class ${1:componentName} extends Component {
   }
 }
     """
+    'componentWillMount method':
+      'prefix': 'cpwm'
+      'body': """componentWillMount($1) {
+        $2
+      }
+
+      """
 # React Redux
   'Component with redux':
     'prefix': 'rcredux'
