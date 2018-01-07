@@ -69,11 +69,16 @@ export default class ${1:componentName} extends Component {
     """
 # React Redux
   'mapStateToProps funtion':
-    'prefix': 'mapS'
+    'prefix': 'mapSta'
     'body': """const mapStateToProps= state => ({
         $1
       });
-
+    """
+  'mapDispatchToProps funtion':
+    'prefix': 'mapDisp'
+    'body': """const mapDispatchToProps= {
+        $1
+      };
     """
 
   'Component with redux':
