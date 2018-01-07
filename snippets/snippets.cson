@@ -68,6 +68,14 @@ export default class ${1:componentName} extends Component {
       }
     """
 # React Redux
+  'mapStateToProps funtion':
+    'prefix': 'mapS'
+    'body': """const mapStateToProps= state => ({
+        $1
+      });
+
+    """
+
   'Component with redux':
     'prefix': 'rcredux'
     'body': """

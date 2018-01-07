@@ -40,6 +40,7 @@ Enjoy :D
 |Prefix|Method|
 |-------:|-------|
 |`rcredux→`|`React component with Redux`|
+|`mapS→`|`mapStateToProps function`|
 
 
 #Redux
