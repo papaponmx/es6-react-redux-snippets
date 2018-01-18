@@ -76,9 +76,9 @@ export default class ${1:componentName} extends Component {
     """
   'mapDispatchToProps funtion':
     'prefix': 'mapDisp'
-    'body': """const mapDispatchToProps= {
+    'body': """const mapDispatchToProps = (dispatch) => ({
         $1
-      };
+      });
     """
 
   'Component with redux':
@@ -102,9 +102,9 @@ const mapStateToProps = (state) => ({
 
 });
 
-const mapDispatchToProps = {
+const mapDispatchToProps = (dispatch) => ({
 
-}
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
     """
