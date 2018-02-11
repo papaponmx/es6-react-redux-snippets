@@ -54,7 +54,19 @@
     """
   'new Promise':
     'prefix': 'npro'
-    'body': 'new Promise((${1:resolve}, ${2:reject}) => )'
+    'body': 'new Promise((${1:resolve}, ${2:reject}) => );'
+  'then() with nested annonymous function':
+    'prefix': 'then'
+    'body':  """then(( ${1:response} => {
+        $2
+    });
+    """
+  'catch() with nested annonymous function':
+    'prefix': '.catch'
+    'body': """catch(( ${1:error} => {
+        $2
+    });
+    """
 
 # React
   'React Component Snipet':
