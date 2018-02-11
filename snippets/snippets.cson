@@ -48,7 +48,10 @@
     """
   'setTimeOut function':
     'prefix': 'seto'
-    'body': 'setTimeOut(($2) => { $3 }, ${1:timeOut});'
+    'body': """setTimeout(($2) => {
+      $3
+      }, ${1:timeOut});
+    """
   'new Promise':
     'prefix': 'npro'
     'body': 'new Promise((${1:resolve}, ${2:reject}) => )'
