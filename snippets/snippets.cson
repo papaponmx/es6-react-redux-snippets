@@ -46,6 +46,13 @@
     'prefix': 'met'
     'body': """ ${1:methodName} = (${2:params}) => { $3 }
     """
+  'setTimeOut function':
+    'prefix': 'seto'
+    'body': 'setTimeOut(($2) => { $3 }, ${1:timeOut});'
+  'new Promise':
+    'prefix': 'npro'
+    'body': 'new Promise((${1:resolve}, ${2:reject}) => )'
+
 # React
   'React Component Snipet':
     'prefix': 'rcc'
