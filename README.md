@@ -25,6 +25,8 @@ Enjoy :D
 |`met→`|`${1:methodName} = (${2:params}) => { $3 }`|
 |`seto→`|`setTimeOut(($2) => { $3 }, ${1:timeOut});`|
 |`npro→`|`new Promise((${1:resolve}, ${2:reject}) => )`|
+|`catch→`|`catch() with nested annonymous function`|
+|`then→`|`then() with nested annonymous function`|
 
 ## React
 
