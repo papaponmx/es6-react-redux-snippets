@@ -11,7 +11,6 @@ Enjoy :D
 
 ## ES6+ Snippets
 
-
 **log → console.log()**
 ![log snippet animation](./docs/log.gif)
 
@@ -30,16 +29,21 @@ Enjoy :D
 **imd → import statement desctructured**
 ![import statement with destructuring snippet](./docs/imd.gif)
 
-**ime→ import everything as**
+**ime → import everything as**
 ![import everything snippet](./docs/ime.gif)
 
-**fof→ for of loop**
+**fof → for of loop**
 ![for of loop snippet](./docs/fof.gif)
 
+**fin → for in loop**
+![for in loop snippet](./docs/fin.gif)
 
-|`fin→`|`for(let ${1:itemName} in ${2:iterable} { $3 }`|
-|`met→`|`${1:methodName} = (${2:params}) => { $3 }`|
-|`seto→`|`setTimeOut(($2) => { $3 }, ${1:timeOut});`|
+**met → method**
+![method snippet](./docs/met.gif)
+
+**seto → setTimeout**
+![setTimeout snippet](./docs/seto.gif)
+
 |`npro→`|`new Promise((${1:resolve}, ${2:reject}) => )`|
 |`catch→`|`catch() with nested annonymous function`|
 |`then→`|`then() with nested annonymous function`|
