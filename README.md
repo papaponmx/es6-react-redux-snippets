@@ -50,22 +50,21 @@ Enjoy :D
 **catch → catch() with nested annonymous function**
 ![catch method snippet](./docs/catch.gif)
 
-**then →then() with nested annonymous function**
+**then → then() with nested annonymous function**
 ![then function snippet](./docs/then.gif)
 
+## React Snippets
 
-## React
+**rcc → React Class Based Component**
+![React component snippet](./docs/rcc.gif)
 
-|Prefix|Method|
-|-------:|-------|
-|`rcc→`|`import React, { Component } from 'react';` <br> `export default class ${1:componentName}` <br> `extends Component {` <br> `render () {` <br> `return (` <br> `<div>` <br> `    $2` <br> `</div>` <br> `)` <br> `}` <br> `}`|
-|`cpwm→`| `componentWillMount($1) { $2 }`|
-|`rcredux→`| `Renders a React connected component`|
+**cpwm → | componentWillMount Method**
+![componentWillMount snippet](./docs/cpwm.gif)
 
+**rcredux → Renders a React connected component**
+![React connected component snippet](./docs/rcredux.gif)
 
-
-
-## React Redux
+## React Redux Snippets
 
 |Prefix|Method|
 |-------:|-------|
