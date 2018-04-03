@@ -33,13 +33,13 @@
     'body': """import * as ${1:alias} from '${2:module}'"""
   'For of loop':
     'prefix': 'fof'
-    'body': """ for(let ${1:itemName} of ${2:iterable} {
+    'body': """ for(let ${1:itemName} of ${2:iterable}) {
       ${3}
     }
     """
   'For in loop':
     'prefix': 'fin'
-    'body': """for(let ${1:itemName} in ${2:iterable} {
+    'body': """for(let ${1:itemName} in ${2:iterable}) {
       $3
    }"""
   'Method':
