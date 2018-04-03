@@ -44,9 +44,15 @@ Enjoy :D
 **seto → setTimeout**
 ![setTimeout snippet](./docs/seto.gif)
 
-|`npro→`|`new Promise((${1:resolve}, ${2:reject}) => )`|
-|`catch→`|`catch() with nested annonymous function`|
-|`then→`|`then() with nested annonymous function`|
+**npro → new Promise**
+![npro snippet](./docs/npro.gif)
+
+**catch → catch() with nested annonymous function**
+![catch method snippet](./docs/catch.gif)
+
+**then →then() with nested annonymous function**
+![then function snippet](./docs/then.gif)
+
 
 ## React
 
