@@ -11,16 +11,32 @@ Enjoy :D
 
 ## ES6+ Snippets
 
-|Prefix|Method|
-|-------:|-------|
-|`log→`|`console.log(${1:msg})`|
-|`anfn→`|`(${1:params}) => {  $2 }`|
-|`nfn→`|`const ${1:functionName} = (${2:params}) => { $3 }`|
-|`fn→`|`function ${1:functionName} (${2:params}) {  $3  }`|
-|`imp→`|`import ${1:ModuleName} from '${2:Module}';`|
-|`imd→`|`import { ${1:destructuredModule} } from '${2:module}'`|
-|`ime→`|`import * as ${1:alias} from '${2:module}`|
-|`fof→`|`for(let ${1:itemName} of ${2:iterable} { $3  }`|
+
+**log → console.log()**
+![log snippet animation](./docs/log.gif)
+
+**anfn → annonymous function**
+![annonymous function snippet](./docs/anfn.gif)
+
+**nfn→ named function**
+![named function snippet](./docs/nfn.gif)
+
+**fn → ES5 fucntion**
+![ES5 function snippet](./docs/fn.gif)
+
+**imp → import statement**
+![import statement snippet](./docs/imp.gif)
+
+**imd → import statement desctructured**
+![import statement with destructuring snippet](./docs/imd.gif)
+
+**ime→ import everything as**
+![import everything snippet](./docs/ime.gif)
+
+**fof→ for of loop**
+![for of loop snippet](./docs/fof.gif)
+
+
 |`fin→`|`for(let ${1:itemName} in ${2:iterable} { $3 }`|
 |`met→`|`${1:methodName} = (${2:params}) => { $3 }`|
 |`seto→`|`setTimeOut(($2) => { $3 }, ${1:timeOut});`|
