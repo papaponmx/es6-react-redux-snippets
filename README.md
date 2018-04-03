@@ -1,10 +1,5 @@
 # es6-react-redux-snippets
-This is the best package ever created for ES6, React and Redux
-
-
-Here is a table with all available snippets.
-
-**Note:** The _$1_ or _${1:params}_ is the position where the cursor will be when the snippet is triggered, if you see a following number, it means that you can press tab and cursor will move to that space.
+This is the best package ever created for ES6, React and Redux.
 
 Enjoy :D
 
@@ -61,22 +56,24 @@ Enjoy :D
 **cpwm → | componentWillMount Method**
 ![componentWillMount snippet](./docs/cpwm.gif)
 
+## React Redux Snippets
+
 **rcredux → Renders a React connected component**
 ![React connected component snippet](./docs/rcredux.gif)
 
-## React Redux Snippets
+**mapSta → mapStateToProps function**
+![mapStateToProps function snippet](./docs/mapSta.gif)
 
-|Prefix|Method|
-|-------:|-------|
-|`rcredux→`|`React component with Redux`|
-|`mapSta→`|`mapStateToProps function`|
-|`mapDis→`|`mapDispatchToProps constant`|
+**mapDis → mapDispatchToProps**
+![mapDispatchToProps function snippet](./docs/mapDis.gif)
 
+## Redux Snippets
 
-#Redux
+**rxconst → creates redux constant**
+![redux constant snippet](./docs/rxconst.gif)
 
-|Prefix|Method|
-|-------:|-------|
-|`rxconst→`|`export const ${1:constName} = '${1:constName}';`|
-|`rxaction→`|`export const ${1:actionName} = ({2:param}) => ({` <br> `type: ${3:type}` <br> `payload: ${4:payload}` <br> `})`|
-|`rxreducer→`|`Redux reducer template`|
+**rxaction → redux action**
+![redux action snippet](./docs/rxaction.gif)
+
+**rxreducer → Redux reducer template**
+![redux reducer snippet](./docs/rxreducer.gif)
