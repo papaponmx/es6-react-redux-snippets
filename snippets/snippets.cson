@@ -62,7 +62,7 @@
     });
     """
   'catch() with nested annonymous function':
-    'prefix': '.catch'
+    'prefix': 'catch'
     'body': """catch(( ${1:error} => {
         $2
     });
