@@ -57,7 +57,7 @@
     'body': 'new Promise((${1:resolve}, ${2:reject}) => );'
   'then() with nested annonymous function':
     'prefix': 'then'
-    'body':  """then(( ${1:response} => {
+    'body':  """then( ${1:response} => {
         $2
     });
     """
