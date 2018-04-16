@@ -72,6 +72,10 @@ Enjoy :D
 <br>
 ![componentWillMount snippet](./docs/cpwm.gif)
 
+**cla → | className attribute**
+<br>
+![className attribute snippet](./docs/cla.gif)
+
 ## React Redux Snippets
 
 **rcredux → Renders a React connected component**

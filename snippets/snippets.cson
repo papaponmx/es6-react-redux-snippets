@@ -2,7 +2,7 @@
 # You can contact me at https://github.com/papaponmx
 # https://riosjaime.com or hola@riosjaime.com
 
-# v1.9.0
+# v3.2.0
 
 # JavaScript
 '.source.js':
@@ -88,6 +88,10 @@ export default class ${1:componentName} extends Component {
     'body': """componentWillMount($1) {
       $2
       }
+    """
+  'className attribute':
+    'prefix': 'cla'
+    'body': """ className="$1"
     """
 # React Redux
   'mapStateToProps funtion':
