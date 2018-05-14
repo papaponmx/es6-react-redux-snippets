@@ -30,7 +30,7 @@
     'body': """import { ${1:destructuredModule} } from '${2:module}'"""
   'Import Everything':
     'prefix': 'ime'
-    'body': """import * as ${2:alias} from '${1:module}'"""
+    'body': """import * as ${2:alias} from '${1:module}';"""
   'For of loop':
     'prefix': 'fof'
     'body': """ for(let ${1:itemName} of ${2:iterable}) {
