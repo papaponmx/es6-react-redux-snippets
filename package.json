@@ -1,7 +1,7 @@
 {
   "name": "es6-react-redux-snippets",
   "main": "./lib/es6-react-redux-snippets",
-  "version": "3.7.0",
+  "version": "3.8.0",
   "description": "This is one of the best packages for ES6+, React and Redux packages out there",
   "keywords": [
     "ES6",
