@@ -13,7 +13,7 @@
     'prefix': 'anfn'
     'body': """(${1:params}) => {
       $2
-       }"""
+       };"""
   'Named function':
     'prefix': 'nfn'
     'body': 'const ${1:functionName} = (${2:params}) => { $3 }'
@@ -27,7 +27,7 @@
     'body': """import ${2:ModuleName} from '${1:Module}';"""
   'Import destructured':
     'prefix': 'imd'
-    'body': """import { ${1:destructuredModule} } from '${2:module}'"""
+    'body': """import { ${1:destructuredModule} } from '${2:module}';"""
   'Import Everything':
     'prefix': 'ime'
     'body': """import * as ${2:alias} from '${1:module}';"""
@@ -35,7 +35,7 @@
     'prefix': 'fof'
     'body': """ for(let ${1:itemName} of ${2:iterable}) {
       ${3}
-    }
+    };
     """
   'For in loop':
     'prefix': 'fin'
@@ -44,7 +44,7 @@
    }"""
   'Method':
     'prefix': 'met'
-    'body': """ ${1:methodName} = (${2:params}) => { $3 }
+    'body': """ ${1:methodName} = (${2:params}) => { $3 };
     """
   'setTimeOut function':
     'prefix': 'seto'
@@ -79,7 +79,7 @@ class ${1:componentName} extends Component {
       <div>
         $2
       </div>
-    )
+    );
   }
 }
 export default ${1:componentName}
@@ -92,7 +92,7 @@ export default ${1:componentName}
     """
   'className attribute':
     'prefix': 'cla'
-    'body': """ className="$1"
+    'body': """className='$1'
     """
 # React Redux
   'mapStateToProps funtion':
@@ -121,7 +121,7 @@ import { connect } from 'react-redux';
       <div>
 
       </div>
-    )
+    );
   }
 }
 
@@ -131,7 +131,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
 
-})
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName});
     """
